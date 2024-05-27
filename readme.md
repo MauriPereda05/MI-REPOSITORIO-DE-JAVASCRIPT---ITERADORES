@@ -18,6 +18,26 @@ for (let i = 0; i <= 5; i++) {
 // incremento: i++
 ```
 
+## while
+
+while es una estructura de control en la programación que permite ejecutar repetidamente un bloque de código mientras una condición dada sea verdadera
+
+```javascript
+let i = 1;
+
+while(i <= 5){
+    console.log(`Numero ${i}`);
+
+    i++;
+}
+
+// Inicializador: let i = 1;
+
+// Limite: while(i <= 5)
+
+// incremento: i++;
+```
+
 ## forEach
 
 Es una herramienta de JavaScript que ayuda a recorrer cada elemento de una lista, como una lista de números o palabras.
