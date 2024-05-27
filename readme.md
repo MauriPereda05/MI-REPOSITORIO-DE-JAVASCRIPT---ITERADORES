@@ -122,3 +122,13 @@ const Sugary = candies.every((candy) => candy.ingredients.includes('sugar'));
 console.log(Sugary);
 ```
 
+## Filter 
+
+Es una función y un iterable como argumentos y devuelve un nuevo iterable que contiene solo los elementos para los cuales filtra el arreglo (o iterable) original según la condición especificada en la función proporcionada.
+
+```javascript
+const candiesSugar = candies.filter(candy => !candy.ingredients.includes('sugar'));
+
+console.log("Dulces sin azúcar:", candiesSugar);
+```
+

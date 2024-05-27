@@ -12,6 +12,22 @@ for (let i = 0; i <= 5; i++) { // for se utiliza para ejecutar un codigo repetid
 
 // incremento: i++
 
+// While 
+
+let i = 1;
+
+while(i <= 5){
+    console.log(`Numero ${i}`);
+
+    i++;
+}
+
+// Inicializador: let i = 1;
+
+// Limite: while(i <= 5)
+
+// incremento: i++;
+
 // forEach y map 
 
 // forEach
@@ -123,3 +139,10 @@ console.log(Sugar);
 const Sugary = candies.every((candy) => candy.ingredients.includes('sugar'));
 
 console.log(Sugary);
+
+// Filter (Filtra el arreglo dependiendo de la condicion)
+
+const candiesSugar = candies.filter(candy => candy.ingredients.includes('sugar'));
+
+console.log("Dulces con azúcar:", candiesSugar);
+
